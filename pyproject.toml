@@ -21,3 +21,4 @@ build-backend = "poetry.core.masonry.api"
 # $ poetry add mkdocs
 # $ poetry run mkdocs new .
 # $ poetry run mkdocs serve
+# ctrl c para desligar o servidor

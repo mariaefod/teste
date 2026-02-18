@@ -1,1 +1,14 @@
-site_name: My Docs
+site_name: Página teste
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - blog

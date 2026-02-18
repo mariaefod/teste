@@ -16,3 +16,7 @@ Exemplo de [hyperlink](https://trilhadev.planejamento.mg.gov.br/main/inicio_da_j
 1. Item 1
 2. Item 2
 3. Item 3
+
+## Imagem
+
+![imagem_inicial](https://blush.design/api/download?shareUri=RsSD2-oTESFR9fVc&c=New%2520Palette%25201_0%7Effffff&bg=7f2f48&w=800&h=800&fm=png)

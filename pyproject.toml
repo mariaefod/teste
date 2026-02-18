@@ -1,0 +1,23 @@
+[project]
+name = "teste"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Maria",email = "92945733+mariaefod@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs (>=1.6.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# $ pipx install poetry
+# $ poetry init
+# $ poetry add mkdocs
+# $ poetry run mkdocs new .
+# $ poetry run mkdocs serve

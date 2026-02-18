@@ -22,3 +22,8 @@ build-backend = "poetry.core.masonry.api"
 # $ poetry run mkdocs new .
 # $ poetry run mkdocs serve
 # ctrl c para desligar o servidor
+
+# $ git status
+# $ git add `o que foi modified`
+# $ git commit -m "escrever o que foi modificado"
+# $ git push

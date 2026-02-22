@@ -51,3 +51,8 @@ build-backend = "poetry.core.masonry.api"
 
 # $ poetry run mkdocs build
 # $ poetry run mkdocs gh-deploy
+
+# $ git checkout -b nome da branch
+# $ git fetch
+# $ git branch --list
+# $ git switch nome

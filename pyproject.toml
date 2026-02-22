@@ -46,3 +46,8 @@ build-backend = "poetry.core.masonry.api"
 # $ git log (mostra o histórico de commits) e git log --oneline (apenas uma linha)
 # $ git checkout `número hash` (volta na versão anterior para consulta)
 # ex.: git switch main (muda para o branch "main")
+
+# sempre começar com git status e git pull origin main
+
+# $ poetry run mkdocs build
+# $ poetry run mkdocs gh-deploy

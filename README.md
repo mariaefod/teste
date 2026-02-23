@@ -1,2 +1,2 @@
 # teste
-Repositório para fazer testes.
+Repositório para fazer testes do Mkdocs.

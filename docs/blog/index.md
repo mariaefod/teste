@@ -40,6 +40,8 @@ ex.: git switch main (muda para o branch "main")
 
 sempre começar com git status e git pull origin main
 
+$ git restore .
+
 ## Comandos básicos
 
 $ pwd (mostra o diretório)

@@ -1,4 +1,4 @@
-# Anotações dos comandos apresentados na aula
+# Trilha-dev: Git
 
 ## Gestor de bibliotecas
 $ pipx install poetry
@@ -39,8 +39,6 @@ $ git checkout `número hash` (volta na versão anterior para consulta)
 ex.: git switch main (muda para o branch "main")
 
 sempre começar com git status e git pull origin main
-
-$ git restore .
 
 ## Comandos básicos
 

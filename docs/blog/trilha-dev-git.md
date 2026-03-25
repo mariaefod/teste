@@ -11,6 +11,10 @@ $ poetry run mkdocs new .
 
 $ poetry run mkdocs serve
 
+$ poetry show `pacote`
+
+$ poetry env info
+
 ctrl c para desligar o servidor
 
 ## Comandos git
@@ -38,7 +42,9 @@ $ git log (mostra o histórico de commits) e git log --oneline (apenas uma linha
 $ git checkout `número hash` (volta na versão anterior para consulta)
 ex.: git switch main (muda para o branch "main")
 
-sempre começar com git status e git pull origin main
+após clonar um repositório: `poetry install` e `poetry env activate`
+
+sempre começar com `git status` e `git pull origin main`
 
 ## Comandos básicos
 
@@ -56,6 +62,8 @@ $ mkdir `nome da pasta a ser criada` (ex.: mkdir pasta1; cria uma nova pasta den
 
 rm -rf `caminho do diretório/` (ex.: rm -rf pasta1/; exclui a pasta)
 ex.: rm post1.md
+
+omz reload
 
 ## Site online
 

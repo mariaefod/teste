@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://mariaefod.github.io/teste/blog/trilha-dev-git/">
       
       
-        <link rel="prev" href="../frictionless/">
+        <link rel="prev" href="../make/">
       
       
       
@@ -295,6 +295,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../make/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Make
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -561,6 +589,8 @@
 <p>$ poetry add mkdocs</p>
 <p>$ poetry run mkdocs new .</p>
 <p>$ poetry run mkdocs serve</p>
+<p>$ poetry show <code>pacote</code></p>
+<p>$ poetry env info</p>
 <p>ctrl c para desligar o servidor</p>
 <h2 id="comandos-git">Comandos git</h2>
 <p>$ git status</p>
@@ -574,7 +604,8 @@
 <p>$ git log (mostra o histórico de commits) e git log --oneline (apenas uma linha)</p>
 <p>$ git checkout <code>número hash</code> (volta na versão anterior para consulta)
 ex.: git switch main (muda para o branch "main")</p>
-<p>sempre começar com git status e git pull origin main</p>
+<p>após clonar um repositório: <code>poetry install</code> e <code>poetry env activate</code></p>
+<p>sempre começar com <code>git status</code> e <code>git pull origin main</code></p>
 <h2 id="comandos-basicos">Comandos básicos</h2>
 <p>$ pwd (mostra o diretório)</p>
 <p>$ ls (lista documentos) e ls -la (vertical e tudo)</p>
@@ -584,6 +615,7 @@ ex.: git switch main (muda para o branch "main")</p>
 <p>$ mkdir <code>nome da pasta a ser criada</code> (ex.: mkdir pasta1; cria uma nova pasta dentro do diretório)</p>
 <p>rm -rf <code>caminho do diretório/</code> (ex.: rm -rf pasta1/; exclui a pasta)
 ex.: rm post1.md</p>
+<p>omz reload</p>
 <h2 id="site-online">Site online</h2>
 <p>$ poetry run mkdocs build</p>
 <p>$ poetry run mkdocs gh-deploy</p>

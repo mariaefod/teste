@@ -2,22 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mariaefod.github.io/teste/</loc>
-         <lastmod>2026-03-25</lastmod>
+         <lastmod>2026-03-30</lastmod>
     </url>
     <url>
          <loc>https://mariaefod.github.io/teste/blog/</loc>
-         <lastmod>2026-03-25</lastmod>
+         <lastmod>2026-03-30</lastmod>
+    </url>
+    <url>
+         <loc>https://mariaefod.github.io/teste/blog/conda/</loc>
+         <lastmod>2026-03-30</lastmod>
+    </url>
+    <url>
+         <loc>https://mariaefod.github.io/teste/blog/docker/</loc>
+         <lastmod>2026-03-30</lastmod>
     </url>
     <url>
          <loc>https://mariaefod.github.io/teste/blog/frictionless/</loc>
-         <lastmod>2026-03-25</lastmod>
+         <lastmod>2026-03-30</lastmod>
     </url>
     <url>
          <loc>https://mariaefod.github.io/teste/blog/make/</loc>
-         <lastmod>2026-03-25</lastmod>
+         <lastmod>2026-03-30</lastmod>
     </url>
     <url>
          <loc>https://mariaefod.github.io/teste/blog/trilha-dev-git/</loc>
-         <lastmod>2026-03-25</lastmod>
+         <lastmod>2026-03-30</lastmod>
     </url>
 </urlset>

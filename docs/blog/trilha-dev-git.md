@@ -32,6 +32,11 @@ $ git push OU $ git push origin main
 $ git pull origin main (trazer modificações do git)
 
 
+$ git commit --amend
+
+$ git push --force-with-lease
+
+
 $ git --version (mostra a versão do git)
 
 $ git init (cria a pasta .git)
@@ -44,7 +49,19 @@ ex.: git switch main (muda para o branch "main")
 
 após clonar um repositório: `poetry install` e `poetry env activate`
 
+obs.: pode ser necessário `pip install -r requirements.txt`
+
 sempre começar com `git status` e `git pull origin main`
+
+
+Para apagar o proxy:
+
+git config --global --unset http.proxy
+
+Para conferir seus proxys:
+
+git config --global --get http.proxy
+
 
 ## Comandos básicos
 

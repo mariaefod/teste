@@ -19,6 +19,8 @@ alvo : dependências
 
 - `make -n dats` mostra os comandos a serem executados, mas sem executá-los
 
+- `make -B` força a execução do make
+
 - `%`: marcador de posição em destinos e dependências.
 
 - `$*`: se refere a conjuntos de arquivos correspondentes em ações.

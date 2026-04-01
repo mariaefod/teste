@@ -17,6 +17,18 @@ $ poetry env info
 
 ctrl c para desligar o servidor
 
+-----
+
+### Ambiente virtural
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+poetry env activate
+
+source ...    # este e o anterior podem ser substituídos por `eval $(poetry env activate)`
+
 ## Comandos git
 
 $ git status
@@ -31,21 +43,28 @@ $ git push OU $ git push origin main
 
 $ git pull origin main (trazer modificações do git)
 
-
-$ git commit --amend
-
-$ git push --force-with-lease
-
+-----
 
 $ git --version (mostra a versão do git)
 
 $ git init (cria a pasta .git)
 
-
 $ git log (mostra o histórico de commits) e git log --oneline (apenas uma linha)
 
 $ git checkout `número hash` (volta na versão anterior para consulta)
 ex.: git switch main (muda para o branch "main")
+
+-----
+
+$ git commit --amend
+
+$ git push --force-with-lease
+
+$ git reset --hard HEAD
+
+$ git reset --hard 999aaaa
+
+$ git push --force
 
 após clonar um repositório: `poetry install` e `poetry env activate`
 
@@ -53,6 +72,7 @@ obs.: pode ser necessário `pip install -r requirements.txt`
 
 sempre começar com `git status` e `git pull origin main`
 
+-----
 
 Para apagar o proxy:
 

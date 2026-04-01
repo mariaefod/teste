@@ -450,6 +450,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Gestor de bibliotecas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-virtural" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente virtural
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -575,6 +592,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Gestor de bibliotecas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-virtural" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambiente virtural
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -648,6 +682,12 @@
 <p>$ poetry show <code>pacote</code></p>
 <p>$ poetry env info</p>
 <p>ctrl c para desligar o servidor</p>
+<hr />
+<h3 id="ambiente-virtural">Ambiente virtural</h3>
+<p>python3 -m venv .venv</p>
+<p>source .venv/bin/activate</p>
+<p>poetry env activate</p>
+<p>source ...    # este e o anterior podem ser substituídos por <code>eval $(poetry env activate)</code></p>
 <h2 id="comandos-git">Comandos git</h2>
 <p>$ git status</p>
 <p>$ git add <code>o que foi modified</code></p>
@@ -655,16 +695,22 @@
 <p>$ git commit -m "escrever o que foi modificado"</p>
 <p>$ git push OU $ git push origin main</p>
 <p>$ git pull origin main (trazer modificações do git)</p>
-<p>$ git commit --amend</p>
-<p>$ git push --force-with-lease</p>
+<hr />
 <p>$ git --version (mostra a versão do git)</p>
 <p>$ git init (cria a pasta .git)</p>
 <p>$ git log (mostra o histórico de commits) e git log --oneline (apenas uma linha)</p>
 <p>$ git checkout <code>número hash</code> (volta na versão anterior para consulta)
 ex.: git switch main (muda para o branch "main")</p>
+<hr />
+<p>$ git commit --amend</p>
+<p>$ git push --force-with-lease</p>
+<p>$ git reset --hard HEAD</p>
+<p>$ git reset --hard 999aaaa</p>
+<p>$ git push --force</p>
 <p>após clonar um repositório: <code>poetry install</code> e <code>poetry env activate</code></p>
 <p>obs.: pode ser necessário <code>pip install -r requirements.txt</code></p>
 <p>sempre começar com <code>git status</code> e <code>git pull origin main</code></p>
+<hr />
 <p>Para apagar o proxy:</p>
 <p>git config --global --unset http.proxy</p>
 <p>Para conferir seus proxys:</p>

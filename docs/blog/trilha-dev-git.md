@@ -29,6 +29,12 @@ poetry env activate
 
 source ...    # este e o anterior podem ser substituídos por `eval $(poetry env activate)`
 
+Outros comandos que podem ser usados
+
+poetry env use 3.10
+
+poetru env info
+
 ## Comandos git
 
 $ git status

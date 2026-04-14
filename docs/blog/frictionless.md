@@ -41,6 +41,8 @@ poetry run frictionless extract data/servidores.csv
 
            frictionless describe data/servidores.csv
 
+                        describe --name execucao_alem_credito datapackages/siafi/datapackage.json
+
                         describe data/servidores.csv --yaml > servidores.resource.yaml
 
                         describe data/servidores.csv --stats --json 

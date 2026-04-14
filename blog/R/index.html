@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://mariaefod.github.io/teste/blog/make/">
+        <link rel="canonical" href="https://mariaefod.github.io/teste/blog/R/">
       
       
-        <link rel="prev" href="../frictionless/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../trilha-dev-git/">
+        <link rel="next" href="../conda/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Make - Página teste</title>
+        <title>R - Página teste</title>
       
     
     
@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#r" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -105,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Make
+              R
             
           </span>
         </div>
@@ -264,10 +269,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../R/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -283,6 +297,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -376,17 +391,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../make/" class="md-nav__link">
         
   
   
@@ -402,7 +410,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -488,6 +495,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -504,59 +513,9 @@
 
 
 
-  <h1>Make</h1>
-
-<p>Algumas anotações sobre o make</p>
-<ul>
-<li>A estrutura é basicamente:</li>
-</ul>
-<pre><code>alvo : dependências
-    ações
-</code></pre>
-<ul>
-<li>
-<p>Quando solicitado a compilar um alvo, o Make verifica se alguma dependência foi atualizada desde a última modificação do alvo. As ações são executadas para atualizar o alvo.</p>
-</li>
-<li>
-<p><code>.PHONY</code>: marca alvos que não correspondem a arquivos.</p>
-</li>
-<li>
-<p><code>$@</code>: se refere ao alvo da regra atual.</p>
-</li>
-<li>
-<p><code>$^</code>: se refere às dependências da regra atual.</p>
-</li>
-<li>
-<p><code>$&lt;</code>: se refere à primeira dependência da regra atual.</p>
-</li>
-<li>
-<p><code>make -n dats</code> mostra os comandos a serem executados, mas sem executá-los</p>
-</li>
-<li>
-<p><code>make -B</code> força a execução do make</p>
-</li>
-<li>
-<p><code>%</code>: marcador de posição em destinos e dependências.</p>
-</li>
-<li>
-<p><code>$*</code>: se refere a conjuntos de arquivos correspondentes em ações.</p>
-</li>
-<li>
-<p><strong>Variáveis</strong>: ​​atribuem valores a nomes; devem ser usadas dentro de $(...).</p>
-</li>
-<li>
-<p><code>wildcard</code>: obtém listas de arquivos que correspondam a um padrão.</p>
-</li>
-<li>
-<p><code>patsubst</code>: reescreve os nomes dos arquivos.</p>
-</li>
-<li>
-<p><code>help</code>: no Makefile, adicione comentários formatados sobre o alvo para ser informado no help.</p>
-</li>
-</ul>
-<pre><code>help : Makefile
-    @sed -n 's/^##//p' $&lt;
-</code></pre>
+<h1 id="r">R</h1>
+<p>devtools::install_local("C:/Users/x19247953/Downloads/execucao.zip")</p>
+<p>remotes::install_github(repo = "splor-mg/execucao", ref = "v0.5.28", auth_token = "github_pat_")</p>
 
 
 

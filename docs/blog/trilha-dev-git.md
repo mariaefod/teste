@@ -33,7 +33,14 @@ Outros comandos que podem ser usados
 
 poetry env use 3.10
 
-poetru env info
+poetry env info
+
+### Usar pacote em desenvolvimento
+
+poetry remove dpetl
+
+poetry add -e ../dpetl
+
 
 ## Comandos git
 

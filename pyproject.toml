@@ -12,8 +12,15 @@ dependencies = [
     "mkdocs-material (>=9.7.2,<10.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
+name = "anotacao"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.7.7"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
